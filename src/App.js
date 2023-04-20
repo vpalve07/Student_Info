@@ -7,7 +7,7 @@ function App() {
     <Router>
       <div className="App">
         <Routes>
-          <Route path="/addStudent" element={<StudentForm />} />
+          <Route path="/" element={<StudentForm />} />
         </Routes>
       </div>
     </Router>
